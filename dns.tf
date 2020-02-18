@@ -15,7 +15,11 @@ resource "aws_route53_record" "main-txt" {
   name = var.dns
   type = "TXT"
   records = [
-    "test=abc", # more text records can be added below
+   
+ns-1937.awsdns-50.co.uk.
+ns-1162.awsdns-17.org.
+ns-72.awsdns-09.com.
+ns-748.awsdns-29.net.
   ]
   ttl = 900
 }
