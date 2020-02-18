@@ -1,5 +1,5 @@
 variable "dns" {
-  default = "aa.dekker-and.digital"
+  default = "jalal.aa.dekker-and.digital"
 }
 
 resource "aws_route53_zone" "main" {
